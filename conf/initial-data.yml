@@ -1,0 +1,10 @@
+User(bob):
+  email: bob@gmail.com
+  password: secret
+  fullname: Bob Clark
+  isAdmin: true
+User(joe):
+  email: joe@gmail.com
+  password: secret
+  fullname: Joe Smith 
+  isAdmin: false

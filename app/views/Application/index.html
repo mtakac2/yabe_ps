@@ -1,4 +1,12 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-#{welcome /}
+<h1>YABE</h1>
+
+#{if users}
+	#{list items:users, as:'user'}
+		<ul>
+			<li>${user.fullname}</li>
+		</ul>
+	#{/list}
+#{/if}
